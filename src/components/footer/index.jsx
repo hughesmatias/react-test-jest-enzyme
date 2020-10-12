@@ -1,11 +1,11 @@
 import React from 'react';
 
 const Footer = () => {
-  const year = '2020';
+  const year = new Date().getFullYear();
 
   return (
     <footer>
-      <p>CopyRight {year} Test Jest and Enzyme</p>
+      <p>CopyRight <span data-test="year">{year}</span> Test Jest and Enzyme</p>
     </footer>
   )
 };
