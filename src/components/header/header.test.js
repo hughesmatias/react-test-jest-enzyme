@@ -9,5 +9,5 @@ describe('Header test', () => {
     expect(
       comp.find('img').length + comp.find('a').length
     ).toBe(2);
-  })
-})
+  });
+});
